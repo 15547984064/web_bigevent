@@ -69,7 +69,7 @@ $(function () {
                     layer.msg('登录成功！')
                     localStorage.setItem('token', res.token)
                     //  跳转
-                    location.href = '/home/dashboard.html'
+                    location.href = '/index.html'
                 }
             })
     })
